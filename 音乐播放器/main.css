@@ -1,0 +1,401 @@
+.mcontaiener {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    white-space: nowrap;
+    background-color: #5e6e72;
+    color: rgb(37, 26, 26);
+    font-size: 14px;
+}
+.controbut {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+#button-play {
+    display: none;
+    position: absolute;
+    left: 250px;
+    top: 16px;
+}
+#button-pause {
+    display: none;
+    position: absolute;
+    left: 250px;
+    top: 16px;
+}
+.showb {
+    display: inline !important;
+}
+#button-before {
+    display: inline;
+    position: absolute;
+    left: 200px;
+    top: 16px;
+}
+#button-next {
+    display: inline;
+    position: absolute;
+    left: 300px;
+    top: 16px;
+}
+#currentimg {
+    width: 58px;
+    height: 60px;
+    position: absolute;
+    left: 120px;
+    opacity: 0.8;
+}
+.appbg1 {
+    background: linear-gradient(to right, #c48533, #c1b848);
+}
+.appbg2 {
+    background: linear-gradient(to right, #c0d0f1, #f8ae7d);
+}
+.appbg3 {
+    background: linear-gradient(to right, #121011, #5e6761);
+}
+.ap-line {
+    font-size: 24px;
+    padding: 0 8px;
+    cursor: default;
+    position: absolute;
+    left: 940px;
+    top: 18px;
+}
+.ap-line-draw {
+    height: 24px;
+    width: 1px;
+    background: #979797;
+}
+#button-store {
+    display: inline;
+    position: absolute;
+    left: 900px;
+    top: 16px;
+}
+.progress-container {
+    width: 500px;
+    height: 40px;
+    left: 370px;
+    top: 10px;
+    position: absolute;
+}
+.showtimer {
+    position: absolute;
+    left: 398px;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.songtitle {
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    left: 0;
+    color: white;
+}
+.progress {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: 10px;
+    border-radius: 5px;
+    background: #64a0b4;
+}
+.drag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2%;
+    height: 4px;
+    border-radius: 5px;
+    background: #32b0da;
+}
+.dot {
+    position: absolute;
+    top: -3px;
+    right: 0px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #32b0da;
+    cursor: pointer;
+}
+#nowtime {
+    color: white;
+}
+#button-voice {
+    display: inline;
+    position: absolute;
+    left: 970px;
+    top: 16px;
+}
+#button-quite {
+    display: none;
+    position: absolute;
+    left: 970px;
+    top: 16px;
+}
+.voice-adjust {
+    width: 100px;
+    height: 2px;
+    left: 1005px;
+    top: 29px;
+    border-radius: 2px;
+    position: absolute;
+    background: #909090;
+}
+.voice-outer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    border-radius: 2px;
+    background: #32b0da;
+}
+.voice-dot {
+    position: absolute;
+    top: -4px;
+    right: 0px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #32b0da;
+    cursor: pointer;
+}
+#button-loop {
+    display: none;
+    position: absolute;
+    left: 1130px;
+    top: 16px;
+}
+#button-oneloop {
+    display: none;
+    position: absolute;
+    left: 1130px;
+    top: 16px;
+}
+#button-random {
+    display: none;
+    position: absolute;
+    left: 1130px;
+    top: 16px;
+}
+.active {
+    display: inline !important;
+}
+#button-list {
+    display: inline;
+    position: absolute;
+    left: 1180px;
+    top: 16px;
+}
+#sp {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    background-image: url(./images/backimg/singlecover.png);
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    transform: rotate(0deg);
+}
+#inner-img {
+    width: 189px;
+    height: 189px;
+    border-radius: 50%;
+}
+.buttons {
+    position: relative;
+    top: 10px;
+}
+#b-u {
+    display: none;
+}
+#scpc {
+    top: 70px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+/**
+* 黑胶唱片唱针样式效果
+*/
+.stylusBox{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.stylus_1{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    transform: rotate(-40deg);
+}
+
+.stylus_2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.stylus_3{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+}
+
+.stylus_4{
+    width: 8px;
+    height: 68px;
+    position: absolute;
+    top: 26px;
+    z-index: -1;
+    border-radius: 50px;
+    background: linear-gradient(to right, #b3b3b1, #d3d3d3, #b3b3b1); 
+}
+
+.stylus_5{
+    width: 100%;
+    height: 56%;
+    position: relative;
+    bottom: -92%;
+    left: 8px;
+    background: linear-gradient(to right, #b3b3b1, #d3d3d3, #b3b3b1); 
+    transform:rotate(-25deg);
+}
+
+.stylus_6{
+    width: 30%;
+    height: 20%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    border-radius: 10px 10px 0 0;
+}
+
+.stylus_7{
+    width: 135%;
+    height: 60%;
+    border-radius: 5px 5px 0 0;
+    position: absolute;
+    bottom: -58%;
+    left: -15%;
+    background: linear-gradient(#b3b3b1, #d3d3d3);
+}
+
+.stylus_8{
+    width: 150%;
+    height: 75%;
+    position: relative;
+    bottom: -98%;
+    left: -3px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #b3b3b1, #d3d3d3, #b3b3b1); 
+}
+
+.stylus_9{
+    width: 8%;
+    height: 50%;
+    background-color: #b1b1b1;
+    position: absolute;
+    top: 20%;
+}
+
+.stylus_10{
+    left: -5px;
+}
+
+.stylus_11{
+    left: 20px;
+}
+.list-container {
+    display: flex;
+    right: 50px;
+    bottom: 60px;
+    width: 620px;
+    position: absolute;
+    background-color: #384245;
+    border-radius: 6px 6px 0 0;
+    transition: 0.3s;
+    transform-origin: 0 100%;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: lighter;
+}
+.playlist-header {
+    padding: 20px;
+    font-size: larger;
+    color: white;
+    height: 18px;
+}
+#songsnum {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: xx-small;
+    padding: 5px;
+}
+.playlist-body {
+    background-color: #455155;
+    width: 620px;
+}
+.list-songs {
+    cursor: pointer;
+    background: #455155;
+    color: #32B0DA;
+    height: 42px;
+    line-height: 40px;
+    font-size: 20px;
+    
+    padding: 10px 0 10px 20px;
+}
+.list-songs:hover {
+    text-decoration:underline;
+    background: #425961;
+}
+.right-author {
+    font-size: xx-small;
+    color: rgb(57, 198, 245);
+    position: absolute;
+    right: 60px;
+}
+.lric-container {
+    position: fixed;
+    bottom: 70px;
+    left: 280px;
+    width: 800px;
+    height: 100px;
+    text-align: center;
+}
+.stitle {
+    height: 30px;
+    line-height: 30px;
+    font-size: 25px;
+    color: white;
+}
+.lric {
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    color: rgb(57, 198, 245);
+}

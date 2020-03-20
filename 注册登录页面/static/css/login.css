@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background: #f6f5f7;
+}
+#log-box {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -150px;
+}
+.logall {
+    height: 150px;
+    margin: 25px auto;
+}
+.input-box {
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    margin: 5px auto;
+    border-radius: 10px;
+    outline: none;
+}
+button {
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    margin: 5px 30px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 12px;
+}
+#id-button-login {
+    background: linear-gradient(90deg, rgb(181, 154, 254), rgb(245, 189, 253));
+    box-shadow: 0 0 8px rgb(181, 154, 254);
+    color: white;
+    border: none;
+}
+#id-button-logup {
+    background: white;
+    color: black;
+    border: none;
+    box-shadow: 0 0 8px grey;
+}
